@@ -6,3 +6,9 @@ def test_two_value():
     b= 3
     c = 0
     assert a + b == c
+
+def test_two_values_true():
+    a = 2
+    b= 3
+    c = 5
+    assert a + b == c
